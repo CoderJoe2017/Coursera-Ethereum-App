@@ -1,9 +1,10 @@
 body {
-    background-color:#F0F0F0;
+    background-color:rgb(127, 174, 206);
     padding: 2em;
     font-family: 'Raleway','Source Sans Pro', 'Arial';
 }
 .container {
+    padding:auto;
     width: 50%;
     margin: 0 auto;
 }
@@ -13,6 +14,7 @@ label {
 }
 input {
     padding:10px;
+    width: 300px;
     width: 50%;
     margin-bottom: 1em;
 }
@@ -23,7 +25,8 @@ button {
 }
 
 #instructor {
-    padding:1em;
+    padding:.5em;
+    width: 350px;
     background-color:#fff;
     margin: 1em 0;
 }
